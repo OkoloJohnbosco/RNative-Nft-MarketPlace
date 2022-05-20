@@ -13,7 +13,7 @@ const theme = {
     background: "transparent",
   },
 };
-console.log(DefaultTheme);
+
 function App() {
   const [loaded] = useFonts({
     InterBold: require("./assets/fonts/Inter-Bold.ttf"),
